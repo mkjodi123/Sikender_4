@@ -6,7 +6,7 @@ import os
 import random
 
 # Put Your Telegram Bot Token Here
-bot = telebot.TeleBot('7684171167:AAFxCVcNwfmqCkQ_j1pOHdxZDRyKK4UPSJs')
+bot = telebot.TeleBot('7419427233:AAGtaLuE2lgMlv_gWkeIKrDmB3kt-7de4Wk')
 
 # Admin User ID
 admin_id = ["5406953620", "7353797869"]
